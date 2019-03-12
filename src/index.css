@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.index-logo{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin: auto;
+}
+.fas{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dislike{
+  background-image: url("img/dislike.png");
+  background-size: 40px;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
