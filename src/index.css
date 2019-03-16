@@ -18,20 +18,47 @@ code {
 	display: inline-block;
 	margin: auto;
 }
-.fas{
+.blog_btn{
   display: inline-block;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   cursor: pointer;
 }
+.like, .dislike{
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+}
+.like{
+  background-image: url("img/like.png");
+}
 .dislike{
   background-image: url("img/dislike.png");
-  background-size: 40px;
-}
+ }
 .hide{
   display: none;
 }
 .show{
   display: block;
+}
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 90px;
+}
+.aside{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100vh;
+}
+#root{
+  display: flex;
+  background-color: #d3d3d3;
 }
